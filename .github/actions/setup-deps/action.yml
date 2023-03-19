@@ -8,7 +8,7 @@ runs:
         version: 7
     - uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version-file: package.json
         cache: 'pnpm'
     - run: pnpm i
       shell: bash
