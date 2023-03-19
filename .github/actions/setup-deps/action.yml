@@ -1,0 +1,14 @@
+name: setup-deps
+description: Install nodejs, pnpm and project packages
+runs:
+  using: 'composite'
+  steps:
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 7
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'pnpm'
+    - run: pnpm i
+      shell: bash
