@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@cloudwalker/dom-utils': ^0.2.0
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   '@vitejs/plugin-react-swc': ^3.0.0
@@ -17,6 +18,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+  '@cloudwalker/dom-utils': 0.2.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@vitejs/plugin-react-swc': 3.2.0_vite@4.2.0
@@ -27,6 +29,10 @@ devDependencies:
   vite: 4.2.0
 
 packages:
+
+  /@cloudwalker/dom-utils/0.2.0:
+    resolution: {integrity: sha512-fJRnICMR5pYbtdL6jK0IGSWNT+7OJQHXZ/m3R8GWAJQIBq3jfa/qFL27nvtJdOD1Pb7IzKjc3SmBEL1jc+wcwg==}
+    dev: true
 
   /@esbuild/android-arm/0.17.12:
     resolution: {integrity: sha512-E/sgkvwoIfj4aMAPL2e35VnUJspzVYl7+M1B2cqeubdBhADV4uPon0KCc8p2G+LqSJ6i8ocYPCqY3A4GGq0zkQ==}
