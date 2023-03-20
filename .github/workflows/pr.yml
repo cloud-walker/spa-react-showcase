@@ -18,6 +18,13 @@ jobs:
       - uses: ./.github/actions/setup-deps
       - run: pnpm tsc
 
+  check-coverage:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/setup-deps
+      - run: pnpm coverage
+
   check-build:
     runs-on: ubuntu-22.04
     steps:
