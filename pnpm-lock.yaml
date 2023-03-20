@@ -8,12 +8,12 @@ specifiers:
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   '@types/testing-library__jest-dom': ^5.14.5
-  '@vitejs/plugin-react-swc': ^3.0.0
+  '@vitejs/plugin-react-swc': ^3.2.0
   '@vitest/coverage-c8': ^0.29.3
   husky: ^8.0.3
   jsdom: ^21.1.1
   lint-staged: ^13.2.0
-  prettier: ^2.8.4
+  prettier: ^2.8.5
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^5.0.2
@@ -38,7 +38,7 @@ devDependencies:
   husky: 8.0.3
   jsdom: 21.1.1
   lint-staged: 13.2.0
-  prettier: 2.8.4
+  prettier: 2.8.5
   typescript: 5.0.2
   vite: 4.2.0
   vite-tsconfig-paths: 4.0.7_rn5le4pusnctvs35nlnpu7hrue
@@ -2003,8 +2003,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.5:
+    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -2121,8 +2121,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/3.19.1:
-    resolution: {integrity: sha512-lAbrdN7neYCg/8WaoWn/ckzCtz+jr70GFfYdlf50OF7387HTg+wiuiqJRFYawwSPpqfqDNYqK7smY/ks2iAudg==}
+  /rollup/3.20.0:
+    resolution: {integrity: sha512-YsIfrk80NqUDrxrjWPXUa7PWvAfegZEXHuPsEZg58fGCdjL1I9C1i/NaG+L+27kxxwkrG/QEDEQc8s/ynXWWGQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2511,7 +2511,7 @@ packages:
       esbuild: 0.17.12
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.19.1
+      rollup: 3.20.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -2545,7 +2545,7 @@ packages:
       esbuild: 0.17.12
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.19.1
+      rollup: 3.20.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
