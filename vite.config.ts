@@ -13,6 +13,7 @@ export default defineConfig({
       provider: 'c8',
       all: true,
       skipFull: true,
+      include: ['src/**'],
       functions: COVERAGE_THRESHOLD,
       branches: COVERAGE_THRESHOLD,
       lines: COVERAGE_THRESHOLD,
