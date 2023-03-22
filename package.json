@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@cloudwalker/dom-utils": "^0.2.0",
+    "@remix-run/web-fetch": "^4.3.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
@@ -38,6 +39,6 @@
     "vitest": "^0.29.7"
   },
   "volta": {
-    "node": "18.15.0"
+    "node": "16.18.0"
   }
 }
