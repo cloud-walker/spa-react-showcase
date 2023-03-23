@@ -1,11 +1,11 @@
-import {createMemoryRouter, Navigate, RouterProvider} from 'react-router-dom'
+import {createBrowserRouter, Navigate, RouterProvider} from 'react-router-dom'
 
 import * as loginRoute from './routes/login'
 
 export const App = () => {
   return (
     <RouterProvider
-      router={createMemoryRouter([
+      router={createBrowserRouter([
         {path: '/', element: <Navigate to="/login" replace />},
         {path: '/login', ...loginRoute},
       ])}
@@ -18,8 +18,8 @@ export const App = () => {
  * /login
  *
  * # Private
- * /todos
- * /todos/:id
+ * /issues
+ * /issue/:id
  *
  * user visit the app
  */

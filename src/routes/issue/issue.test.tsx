@@ -6,5 +6,5 @@ import {element} from '.'
 test('render properly', () => {
   render(element)
 
-  expect(screen.getByRole('heading', {name: 'Todos'})).toBeInTheDocument()
+  expect(screen.getByText('Issue')).toBeInTheDocument()
 })
