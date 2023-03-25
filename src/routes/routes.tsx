@@ -1,8 +1,5 @@
 import {Navigate, Outlet, RouteObject} from 'react-router-dom'
 
-import * as issuesRoute from './issues'
-import * as loginRoute from './login'
-
 const redirectToLogin = <Navigate to="/login" replace />
 
 const Protected = () => {
@@ -17,14 +14,14 @@ export const routes = [
     path: '/',
     element: redirectToLogin,
   },
-  {path: '/login', ...loginRoute},
+  {path: '/login', lazy: () => import('./login')},
   {
     element: <Protected />,
     children: [
       {
         path: '/issues',
-        ...issuesRoute,
-        children: [{path: ':id_issue', ...issuesRoute}],
+        lazy: () => import('./issues'),
+        children: [{path: ':id_issue', lazy: () => import('./issue')}],
       },
     ],
   },
