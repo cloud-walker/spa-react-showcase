@@ -9,7 +9,7 @@ const Protected = () => {
   return <Outlet />
 }
 
-export const routes = [
+export const routes: RouteObject[] = [
   {
     path: '/',
     element: redirectToLogin,
@@ -25,9 +25,10 @@ export const routes = [
       },
     ],
   },
-] satisfies RouteObject[]
+]
 
 export const href = {
+  home: '/',
   login: '/login',
   issues: '/issues',
 } as const
