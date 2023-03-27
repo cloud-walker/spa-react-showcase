@@ -1,8 +1,11 @@
 import {Outlet} from 'react-router-dom'
 
-export const element = (
-  <>
-    <h1>Issues</h1>
-    <Outlet />
-  </>
-)
+export const Component = () => {
+  return (
+    <>
+      <h1>Issues</h1>
+      <Outlet />
+    </>
+  )
+}
+Component.displayName = 'IssuesRoute'
