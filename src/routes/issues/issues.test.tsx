@@ -1,10 +1,10 @@
 import {render, screen} from '@testing-library/react'
 import {expect, test} from 'vitest'
 
-import {element} from '.'
+import {Component} from '.'
 
 test('render properly', () => {
-  render(element)
+  render(<Component />)
 
   expect(screen.getByRole('heading', {name: 'Issues'})).toBeInTheDocument()
 })

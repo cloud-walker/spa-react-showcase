@@ -6,6 +6,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "format": "prettier . --write --ignore-unknown",
+    "types": "tsc",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "dev": "vite",
