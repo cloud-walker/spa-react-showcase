@@ -15,5 +15,7 @@ afterEach(() => {
 test('works properly', async () => {
   await import('./main')
 
-  expect(await screen.findByRole('heading', {name: 'Hello!'}))
+  expect(
+    await screen.findByRole('heading', {name: 'Login'}),
+  ).toBeInTheDocument()
 })
