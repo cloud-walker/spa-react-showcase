@@ -2,7 +2,7 @@ import {render, screen} from '@testing-library/react'
 import {createMemoryRouter, RouteObject, RouterProvider} from 'react-router-dom'
 import {expect, test} from 'vitest'
 
-import {Component} from './issue'
+import {Component} from '.'
 
 test('render properly', () => {
   const routes: RouteObject[] = [
